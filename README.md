@@ -1,10 +1,7 @@
 A simple flask app to remove the background of an image with [Rembg](https://github.com/danielgatis/rembg)
 
-Watch the [tutorial](https://youtu.be/cw34KMPSt4k) on YouTube
+## Build
 
-## Run it
-
-```
-pip install -r requirements.txt
-python app.py
+```bash
+docker build -t rembg .
 ```
